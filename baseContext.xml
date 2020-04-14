@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+    <!-- Database settings, specify if not localhost:3306 -->
+
+    <Environment name="databaseHost" value="teastore-db" 
+        type="java.lang.String" override="false"/>
+
+    <Environment name="databasePort" value="3306" 
+        type="java.lang.String" override="false"/>
+    
+    <Environment name="hostName" value="webui" 
+        type="java.lang.String" override="false"/>
+
+    <Environment name="registryURL" value="http://registry:8080/tools.descartes.teastore.registry/rest/services/"
+        type="java.lang.String" override="false"/>
+   	
+
+</Context>
