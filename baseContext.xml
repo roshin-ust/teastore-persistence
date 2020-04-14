@@ -10,7 +10,7 @@
     <Environment name="databasePort" value="3306" 
         type="java.lang.String" override="false"/>
     
-    <Environment name="hostName" value="webui" 
+    <Environment name="hostName" value="persistence" 
         type="java.lang.String" override="false"/>
 
     <Environment name="registryURL" value="http://registry:8080/tools.descartes.teastore.registry/rest/services/"
